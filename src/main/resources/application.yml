@@ -1,6 +1,5 @@
 # 公共配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
+# @author hxh
 spring:
   application:
     name: quickbi
@@ -61,6 +60,7 @@ mybatis-plus:
       logic-delete-field: isDelete # 全局逻辑删除的实体字段名
       logic-delete-value: 1 # 逻辑已删除值（默认为 1）
       logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+
 # 微信相关
 wx:
   # 微信公众平台
@@ -100,4 +100,10 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.springbootinit.controller
+          - com.hxh.springbootinit.controller
+
+#鱼聪明AI配置
+yuapi:
+  client:
+    access-key: c505aky16peefmho8yetli21d154ush8
+    secret-key: k8cnxh6fsuufw61rx1a39tbxtvv2fo9b

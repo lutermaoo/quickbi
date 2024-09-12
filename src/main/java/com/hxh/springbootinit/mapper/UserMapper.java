@@ -1,0 +1,18 @@
+package com.hxh.springbootinit.mapper;
+
+import com.hxh.springbootinit.model.entity.User;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+* @author lenovo
+* @description 针对表【user(用户)】的数据库操作Mapper
+* @createDate 2024-08-23 15:54:13
+* @Entity com.hxh.springbootinit.model.entity.User
+*/
+public interface UserMapper extends BaseMapper<User> {
+
+}
+
+
+
+
